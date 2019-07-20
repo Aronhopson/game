@@ -20,6 +20,7 @@ $("ul").on("click", "span", function(event){
 	
 
 	$(".fa-plus").click(function(){
+		$("input[type='text'").fadeOut();
 		// $("input[type='text'").fadeToggle()
 	});
 
